@@ -1,8 +1,11 @@
 .dark {
-  background-color: #121212;
-  
+  background-color: #272626;
 }
 
 .light {
   background-color: #ffffff;
+}
+
+button {
+  cursor: pointer;
 }

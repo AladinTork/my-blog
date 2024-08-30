@@ -6,6 +6,13 @@ header {
   padding-bottom: 10px;
 }
 
+#submit {
+    width: 100%;
+  background-color: black;
+  color: white;
+  padding: 4px 0px;
+}
+
 .body {
   display: flex;
   justify-content: space-between;
@@ -15,7 +22,7 @@ header {
 .bodyDiv,
 .bodyDiv2 {
   display: flex;
-  width: 49.2%;
+  width: 48%;
   justify-content: center;
   align-items: center;
   padding: 30px 0px;

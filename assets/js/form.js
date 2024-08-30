@@ -9,7 +9,6 @@ let blogPosts = [];
 
 if (JSON.parse(localStorage.getItem("blogPosts"))) {
   blogPosts = JSON.parse(localStorage.getItem("blogPosts"));
-  console.log(blogPosts);
 }
 
 // create an event listener

@@ -18,3 +18,9 @@ header {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
+
+.footer {
+    display: flex;
+    width: 100%;
+    border-top: solid 2px black;
+}

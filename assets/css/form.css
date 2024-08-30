@@ -19,8 +19,7 @@ header {
   margin-top: 5px;
 }
 
-.bodyDiv,
-.bodyDiv2 {
+.bodyDiv {
   display: flex;
   width: 48%;
   justify-content: center;
@@ -39,8 +38,8 @@ header {
 }
 
 .circle {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   border: solid 1px;
   border-radius: 50%;
   display: flex;

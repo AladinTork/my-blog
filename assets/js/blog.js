@@ -1,17 +1,7 @@
-const modeButton = document.getElementById("mode");
-const currentMode = document.getElementById("currentmode");
-const container = document.querySelector("#container");
+const main = document.getElementById('main');
 
-let mode = "light";
+blogPosts = JSON.parse(localStorage.getItem("blogPosts"));
 
-modeButton.addEventListener("click", function () {
-  if (mode == "light") {
-    container.setAttribute("class", "dark");
-    currentMode.innerHTML = "Light Mode";
-    mode = "dark";
-  } else {
-    container.setAttribute("class", "light");
-    currentMode.innerHTML = "Dark Mode";
-    mode = "light";
-  }
+blogPosts.array.forEach(post => {
+    const div = document.createElement('div');
 });

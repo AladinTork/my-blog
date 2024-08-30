@@ -13,8 +13,8 @@ modeButton.addEventListener("click", function () {
     currentMode.innerHTML = "Light Mode";
     mode = "dark";
     headerBox.setAttribute("style", "border-bottom: solid 2px white;");
-    bodyBox.setAttribute("style", "border: solid 2px white;");
-    bodyBox2.setAttribute("style", "border: solid 2px white;");
+    bodyBox.setAttribute("style", "border: solid 2px white; color: white;");
+    bodyBox2.setAttribute("style", "border: solid 2px white; color: white;");
   } else {
     container.setAttribute("class", "light");
     currentMode.innerHTML = "Dark Mode";
